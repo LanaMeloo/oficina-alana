@@ -1,7 +1,7 @@
 {
   "name": "oficina-alana",
   "version": "1.0.0",
-  "description": "",
+  "description": "Além de nome, e-mail e senha, vou guardar algumas informações do cliente e do veículo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,17 @@
     "jsonwebtoken": "^9.0.3",
     "mysql2": "^3.24.3",
     "sequelize": "^6.37.8"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LanaMeloo/oficina-alana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LanaMeloo/oficina-alana/issues"
+  },
+  "homepage": "https://github.com/LanaMeloo/oficina-alana#readme"
 }

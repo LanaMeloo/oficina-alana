@@ -1,9 +1,9 @@
 const express = require('express');
-const sequelize = require('./src/config/database');
-const usuarioRoutes = require('./src/routes/usuarioRoutes');
-const authRoutes = require('./src/routes/authRoutes');
-const livroRoutes = require('./src/routes/livroRoutes');
-const movimentacaoRoutes = require('./src/routes/movimentacaoRoutes');
+const sequelize = require('./config/database');
+const usuarioRoutes = require('./routes/usuarioRoutes');
+const authRoutes = require('./routes/authRoutes');
+const livroRoutes = require('./routes/livroRoutes');
+const movimentacaoRoutes = require('./routes/movimentacaoRoutes');
 require('dotenv').config();
 
 const app = express();
